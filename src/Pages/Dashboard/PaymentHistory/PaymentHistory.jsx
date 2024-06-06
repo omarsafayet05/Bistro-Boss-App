@@ -3,12 +3,13 @@ import useAuth from "../../../hooks/useAuth";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
 const PaymentHistory = () => {
-  const { user } = useAuth();
+  const { user, loading } = useAuth();
   const axiosSecure = useAxiosSecure();
 
   const { data: payments = [] } = useQuery({
+    enabled: !loading,
     //[],payment equal given empty array due to initial value showing on browser until loading data from server.
-    queryKey: ["payments", user.email],
+    queryKey: ["payments", user?.email],
     queryFn: async () => {
       const res = await axiosSecure.get(`/payments/${user.email}`);
       return res.data;

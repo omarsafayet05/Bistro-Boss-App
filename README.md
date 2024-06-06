@@ -2,7 +2,7 @@
 
 ##### Live Website:
 
-- Live link: https://66614e9be069c4550ed4bb67--euphonious-starburst-46f7cb.netlify.app/
+- Live link:https://666179a787390877640d0b4f--euphonious-starburst-46f7cb.netlify.app/
 
 ##### Server Link:
 
