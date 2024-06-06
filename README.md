@@ -6,7 +6,7 @@
 
 ##### Server Link:
 
--Server Link: https://bistro-boss-server-mauve-xi.vercel.app
+-Server Link: https://github.com/omarsafayet05/Bistro-Boss-server
 
 ---
 
