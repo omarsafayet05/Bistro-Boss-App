@@ -2,7 +2,7 @@
 
 ##### Live Website:
 
-- Live link:https://666179a787390877640d0b4f--euphonious-starburst-46f7cb.netlify.app/
+- Live link:https://bistro-boss-0592.surge.sh/
 
 ##### Server Link:
 
